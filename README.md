@@ -6,7 +6,7 @@
 - Animation.
 - Event listener.
 
-[If you want to access it, just click here.](https://adeilson-adila.github.io/lonely-planet/)
+[If you want to access it, just click here.](https://adeilsonaalima.github.io/lonely-planet/)
 ## Feedback
 
 If you have any feedback, please let us know via adeilson.afix@gmail.com!
@@ -14,4 +14,4 @@ If you have any feedback, please let us know via adeilson.afix@gmail.com!
 
 ## Authors
 
-- [Adeilson Lima](https://www.github.com/adeilsonaalima)
+- [Adeilson Á. A. Lima](https://www.github.com/adeilsonaalima)
