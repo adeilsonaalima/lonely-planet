@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+	<meta name="description" content="Lonely planet wandering through space; a study of HTML5, CSS3 and JS">
+	<meta name="author" content="Adeilson Ádila Andrade Lima">
+	<meta name="keywords" content="lonely, planet, blue, study, css3, html5, js">
+	<meta name="robots" content="index, follow">
+  <title>Lonely Planet</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="./assets/favicon/site.webmanifest">
+	<link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<link href="./page/normalize.css" rel="stylesheet" type="text/css" />
+  <link href="./page/style.css" rel="stylesheet" type="text/css" />
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	
+	<main>
+		<div class="container">
+			<!-- Play & pause | Mute & unmute -->
+			<div id="player">
+				<i class="fa-solid fa-volume-xmark" aria-hidden="true"></i>
+			</div>
+			
+			<div class="stars"></div>
+			<img class="planet" src="./assets/images/planet.gif" aria-label="Lonely planet wandering through space" draggable="false">
+			<div class="parallax"></div>
+		</div>
+	</main>
+
+	<audio id="music" src="./assets/audios/Ether_Oar-The_Whole_Other.mp3" preload="auto"></audio>
+	
+  <script src="./page/script.js"></script>
+</body>
+
+</html>
